@@ -48,7 +48,7 @@ llm_clients:
       max_num_seqs: 256
       extra_args:
         - "--speculative-config"
-        - '{"method":"dflash","model":"Fluxmire/Qwen3.6-27B-DFlash","revision":"41c2caa0f345c61af12c9f0cfa6806659c956840","num_speculative_tokens":7}'
+        - '{"method":"dflash","model":"Fluxmire/Qwen3.6-27B-DFlash","revision":"0298ad782781a14154b009221b90badb3832b06c","num_speculative_tokens":7}'
   judge-critic-instance:
     enabled: true
     base_url: "http://localhost:8002/v1"
